@@ -24,7 +24,7 @@
          if ($the_query->have_posts() ) : while ($the_query->have_posts() ) : $the_query->the_post(); ?>
           
             <div class="side-project"> 
-                <a href="<?php the_field('sp_link') ?>">      
+                <a href="<?php the_field('sp_url') ?>">      
                 <h3><?php the_field('name_of_side_project'); ?></h3>
                 <p><?php the_field('sp_description'); ?></p>
                 <img class="project-img" src="<?php the_field('sp_feature_image');?>">
