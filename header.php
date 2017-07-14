@@ -4,8 +4,7 @@
         <title>Ben Joy</title>
         <meta http-quiv="Content-type" content=text/html; charset="utf-8" />
         <meta name="Viewport" content="width=device-width, inital-scale=1" />
-        <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-        <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+        <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />   
 
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
