@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Ben Joy</title>
+        <title><?php wp_title( '|', true, 'right'); bloginfo( 'name' ); ?></title>
         <meta http-quiv="Content-type" content=text/html; charset="utf-8" />
         <meta name="Viewport" content="width=device-width, inital-scale=1" />
         <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />   
