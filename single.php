@@ -14,9 +14,11 @@
 
             <hr>
                <?php the_content() ?>
-               <?php endwhile ; else : ?>
-               <p><?php echo ("Whoops, guess I haven't been talking about anything!");?></p>
-                <?php endif; ?>
+
+               <?php endwhile ; endif ; ?>
+
+               
+            
             </div>
 
             <div class="read-more">
