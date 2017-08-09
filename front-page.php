@@ -11,7 +11,9 @@ Template Name: homepage
     <div class="wrapper">
         
                     <h1><?php the_field('headline'); ?></h1>
-                    <div class="photo"><img class="profile-pic" src="<?php the_field('profile_pic'); ?>"</div>
+                    <div class="photo">
+                        <img class="profile-pic" src="<?php the_field('profile_pic'); ?>">
+                    </div>
                     <h2><?php the_field('brief_description'); ?></h2>
         
                     <hr>
@@ -34,6 +36,7 @@ Template Name: homepage
                         <?php endwhile; else : ?>
                             <p><?php echo ("Whoops, guess I haven't been talking about anything!");?></p>
                         <?php endif; ?>
+    
     </div>
 
 
